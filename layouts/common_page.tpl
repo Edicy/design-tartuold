@@ -28,7 +28,7 @@
   <h1>{{ page.title }}</h1>
   {% include "Submenu" %}
   <div id="cont_right">
-    <div id="cont_right_inn" class="clearfix">
+    <div id="cont_right_inn" class="clearfix" data-search-indexing-allowed="true">
    {% content %}
     </div>
   </div>

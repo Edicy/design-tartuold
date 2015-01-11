@@ -26,8 +26,8 @@
    </div>
   </div>
 	<div id="content">
-  <div class="post blogarticle clearfix">
-   <h2 class="red">{% editable article.title plain="true" %} <span class="date">{{ article.created_at | format_date:"short" }}</span>, {{ article.author.name }}</h2>
+  <div class="post blogarticle clearfix" data-search-indexing-allowed="true">
+   <h2 class="red" data-search-indexing-allowed="galse">{% editable article.title plain="true" %} <span class="date">{{ article.created_at | format_date:"short" }}</span>, {{ article.author.name }}</h2>
    {% editable article.excerpt %}
 <br />
 <br />

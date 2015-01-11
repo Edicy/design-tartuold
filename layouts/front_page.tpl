@@ -20,7 +20,7 @@
     {% if editmode %}<h1 class="clearfix">{% editable site.header %}</h1>{% else %}<h1><a href="{{ site.root_item.url }}" class="clearfix">{% editable site.header %}</a></h1>{% endif %}
    </div>
    <div class="clearer"></div>
-   <div id="slogan" class="clearfix">
+   <div id="slogan" class="clearfix" data-search-indexing-allowed="true">
     {% content %}
    </div>
    {% include "Mainmenu" %}
