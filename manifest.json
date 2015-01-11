@@ -1,1 +1,178 @@
-{"layouts":[{"component":true,"content_type":"component","title":"Submenu","layout_name":"","file":"components/submenu.tpl"},{"component":true,"content_type":"component","title":"SiteHeader","layout_name":"","file":"components/siteheader.tpl"},{"component":true,"content_type":"component","title":"Newsbox","layout_name":"","file":"components/newsbox.tpl"},{"component":true,"content_type":"component","title":"Mainmenu","layout_name":"","file":"components/mainmenu.tpl"},{"component":true,"content_type":"component","title":"Langmenu","layout_name":"","file":"components/langmenu.tpl"},{"component":false,"content_type":"page","title":"Front page","layout_name":"page_front","file":"layouts/front_page.tpl"},{"component":false,"content_type":"page","title":"Common page","layout_name":"page_default","file":"layouts/common_page.tpl"},{"component":false,"content_type":"blog_article","title":"Blog article","layout_name":"blog_article","file":"layouts/blog_article.tpl"},{"component":false,"content_type":"blog","title":"Blog and News","layout_name":"blog_front","file":"layouts/blog_and_news.tpl"},{"component":true,"content_type":"component","title":"Search","layout_name":"","file":"components/search.tpl"},{"component":true,"content_type":"component","title":"JS","layout_name":"","file":"components/js.tpl"}],"name":"Tartu old","author":"T\u00f5nu Runnel","assets":[{"kind":"images","content_type":"image/gif","filename":"news_bullet.gif","file":"images/news_bullet.gif"},{"kind":"images","content_type":"image/gif","filename":"news_bullet_medium.gif","file":"images/news_bullet_medium.gif"},{"kind":"stylesheets","content_type":"text/css","filename":"style.css","file":"stylesheets/style.css"},{"kind":"images","content_type":"image/jpg","filename":"background.jpg","file":"images/background.jpg"},{"kind":"images","content_type":"image/jpg","filename":"background_medium.jpg","file":"images/background_medium.jpg"},{"kind":"images","content_type":"image/gif","filename":"bluestrip.gif","file":"images/bluestrip.gif"},{"kind":"images","content_type":"image/gif","filename":"bluestrip_medium.gif","file":"images/bluestrip_medium.gif"},{"kind":"images","content_type":"image/gif","filename":"mainmenu_bullet_active.gif","file":"images/mainmenu_bullet_active.gif"},{"kind":"images","content_type":"image/gif","filename":"mainmenu_bullet.gif","file":"images/mainmenu_bullet.gif"},{"kind":"images","content_type":"image/gif","filename":"mainmenu_bullet_active_medium.gif","file":"images/mainmenu_bullet_active_medium.gif"},{"kind":"images","content_type":"image/gif","filename":"mainmenu_bullet_medium.gif","file":"images/mainmenu_bullet_medium.gif"},{"kind":"images","content_type":"image/gif","filename":"ul_bullet.gif","file":"images/ul_bullet.gif"},{"kind":"images","content_type":"image/gif","filename":"ul_bullet_medium.gif","file":"images/ul_bullet_medium.gif"},{"kind":"images","content_type":"image/gif","filename":"mainmenu_bullet_mouseover.gif","file":"images/mainmenu_bullet_mouseover.gif"},{"kind":"images","content_type":"image/gif","filename":"mainmenu_bullet_mouseover_medium.gif","file":"images/mainmenu_bullet_mouseover_medium.gif"}],"preview_medium":"http://static.edicy.com/designs/previews/tartu_medium.jpg","preview_small":"http://static.edicy.com/designs/previews/tartu_small.jpg","description":"Tartu"}
+{
+  "description": "Tartu",
+  "name": "Tartu old",
+  "preview_medium": "http://static.edicy.com/designs/previews/tartu_medium.jpg",
+  "preview_small": "http://static.edicy.com/designs/previews/tartu_small.jpg",
+  "author": "Tõnu Runnel",
+  "layouts": [
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/front_page.tpl",
+      "layout_name": "page_front",
+      "title": "Front page"
+    },
+    {
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog_and_news.tpl",
+      "layout_name": "blog_front",
+      "title": "Blog and News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mainmenu.tpl",
+      "layout_name": "mainmenu",
+      "title": "mainmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/newsbox.tpl",
+      "layout_name": "newsbox",
+      "title": "newsbox"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/search.tpl",
+      "layout_name": "search",
+      "title": "search"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/submenu.tpl",
+      "layout_name": "submenu",
+      "title": "submenu"
+    }
+  ],
+  "assets": [
+    {
+      "content_type": "image/jpeg",
+      "file": "images/background.jpg",
+      "kind": "images",
+      "filename": "background.jpg"
+    },
+    {
+      "content_type": "image/jpeg",
+      "file": "images/background_medium.jpg",
+      "kind": "images",
+      "filename": "background_medium.jpg"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/bluestrip.gif",
+      "kind": "images",
+      "filename": "bluestrip.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/bluestrip_medium.gif",
+      "kind": "images",
+      "filename": "bluestrip_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/mainmenu_bullet.gif",
+      "kind": "images",
+      "filename": "mainmenu_bullet.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/mainmenu_bullet_active.gif",
+      "kind": "images",
+      "filename": "mainmenu_bullet_active.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/mainmenu_bullet_active_medium.gif",
+      "kind": "images",
+      "filename": "mainmenu_bullet_active_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/mainmenu_bullet_medium.gif",
+      "kind": "images",
+      "filename": "mainmenu_bullet_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/mainmenu_bullet_mouseover.gif",
+      "kind": "images",
+      "filename": "mainmenu_bullet_mouseover.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/mainmenu_bullet_mouseover_medium.gif",
+      "kind": "images",
+      "filename": "mainmenu_bullet_mouseover_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/news_bullet.gif",
+      "kind": "images",
+      "filename": "news_bullet.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/news_bullet_medium.gif",
+      "kind": "images",
+      "filename": "news_bullet_medium.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/ul_bullet.gif",
+      "kind": "images",
+      "filename": "ul_bullet.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/ul_bullet_medium.gif",
+      "kind": "images",
+      "filename": "ul_bullet_medium.gif"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    }
+  ]
+}
