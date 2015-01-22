@@ -427,6 +427,10 @@ height: 22px;
 #search input {
 border: 1px solid #eee;
 }
+.voog-search-modal h3 {
+  margin-right: 0;
+  margin-left: 0;
+}
     
 #logo h1 span input {
   width: auto !important;
