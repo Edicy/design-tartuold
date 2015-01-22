@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     {% if site.search.enabled %}{% stylesheet_link "assets/site_search/3.0/style.css?1" static_host="true" %}{% endif %}
     {% stylesheet_link "style.css?tartu" %}
-	{% if editmode %}{% stylesheet_link "assets/admin/editmode.css" static_host="true" %}{% endif %}
+	{% if editmode %}<style>.untranslated{opacity:.5;filter:alpha(Opacity=50);zoom:1}</style>{% endif %}
 <!--[if IE6]>
 <style type="text/css">
 #logo {
@@ -17,5 +17,5 @@ width: 10px;
 <link rel="shortcut icon" href="/favicon.ico" type="image/ico" />
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
-<!--[if IE]><link rel="stylesheet" href="http://static.edicy.com/assets/ie.css" type="text/css" /><![endif]-->
+<!--[if IE]><style>.clearfix { zoom:1; }</style><![endif]-->
 <title>{% if article %}{{ article.title }} | {{page.site_title}}{% else %}{{page.site_title}} | {{ page.title }}{% endif %}</title>
