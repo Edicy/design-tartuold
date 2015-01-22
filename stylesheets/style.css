@@ -520,3 +520,22 @@ width: 50%;
 width: 25%;
 
 }
+
+ /* Voog cms style overrides */
+#slogan .edy-empty-bordered {
+  color: rgba(255,255,255,.33);
+  border-color: rgba(255,255,255,.33);
+}
+#slogan .edy-texteditor-view.placeholder {
+  color: rgba(255,255,255,.5);
+}
+#slogan .edy-content-element-hover {
+  border-color: rgba(255,255,255,.2);
+}
+#slogan .edy-texteditor-active {
+  outline-color: rgba(255,255,255,.3);
+}
+#slogan .edy-fe-field-active,
+#slogan .edy-fe-active .edy-fe-field:hover {
+  outline-color: rgba(255,255,255,.2);
+}
