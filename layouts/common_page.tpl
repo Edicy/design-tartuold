@@ -24,7 +24,7 @@
    {% loginblock %}{{ "footer_login_link" | lc }}{% endloginblock %}
    </div>
   </div>
-	<div id="content">
+	<div id="content" class="clearfix">
   <h1>{{ page.title }}</h1>
   {% include "Submenu" %}
   <div id="cont_right">

@@ -1,5 +1,7 @@
 .clearfix:after {
-  content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 body {
@@ -263,7 +265,6 @@ font-size: 14px;
 	padding: 50px 0 0 0;
 	color: #333333;
 	position: relative;
-overflow: hidden;
 width: 960px;
 }
 #content h1 {
@@ -307,7 +308,7 @@ padding: 0;
 	text-align: right;
 	padding-left: 140px;
        padding-bottom: 20px;
-overflow: hidden;
+
 }
 #cont_left ul {
         margin: 0;
@@ -329,6 +330,9 @@ overflow: hidden;
 	color: white;
 	background-color: #cc0000;
 }
+#cont_left a.edy-cbtn:hover {
+  background-color: transparent;
+}
 #cont_left ul li a.active {
 font-weight: bold;
 }
@@ -341,8 +345,10 @@ font-weight: bold;
 #cont_right_inn {
   width: 540px;
 }
-* html #cont_right_inn {
-  overflow-x: hidden;
+* html #cont_right_inn:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 #cont_right p {

@@ -25,7 +25,7 @@
    {% loginblock %}{{ "footer_login_link" | lc }}{% endloginblock %}
    </div>
   </div>
-	<div id="content">
+	<div id="content" class="clearfix">
   <div class="post blogarticle clearfix" data-search-indexing-allowed="true">
    <h2 class="red" data-search-indexing-allowed="galse">{% editable article.title plain="true" %} <span class="date">{{ article.created_at | format_date:"short" }}</span>, {{ article.author.name }}</h2>
    {% editable article.excerpt %}
