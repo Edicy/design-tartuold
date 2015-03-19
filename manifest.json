@@ -38,49 +38,49 @@
       "component": true,
       "file": "components/langmenu.tpl",
       "layout_name": "langmenu",
-      "title": "langmenu"
+      "title": "Langmenu"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/js.tpl",
       "layout_name": "js",
-      "title": "js"
+      "title": "JS"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/mainmenu.tpl",
       "layout_name": "mainmenu",
-      "title": "mainmenu"
+      "title": "Mainmenu"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/newsbox.tpl",
       "layout_name": "newsbox",
-      "title": "newsbox"
+      "title": "Newsbox"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/search.tpl",
       "layout_name": "search",
-      "title": "search"
+      "title": "Search"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/siteheader.tpl",
       "layout_name": "siteheader",
-      "title": "siteheader"
+      "title": "SiteHeader"
     },
     {
       "content_type": "component",
       "component": true,
       "file": "components/submenu.tpl",
       "layout_name": "submenu",
-      "title": "submenu"
+      "title": "Submenu"
     }
   ],
   "assets": [
@@ -91,22 +91,10 @@
       "filename": "background.jpg"
     },
     {
-      "content_type": "image/jpeg",
-      "file": "images/background_medium.jpg",
-      "kind": "images",
-      "filename": "background_medium.jpg"
-    },
-    {
       "content_type": "image/gif",
       "file": "images/bluestrip.gif",
       "kind": "images",
       "filename": "bluestrip.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/bluestrip_medium.gif",
-      "kind": "images",
-      "filename": "bluestrip_medium.gif"
     },
     {
       "content_type": "image/gif",
@@ -122,27 +110,9 @@
     },
     {
       "content_type": "image/gif",
-      "file": "images/mainmenu_bullet_active_medium.gif",
-      "kind": "images",
-      "filename": "mainmenu_bullet_active_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/mainmenu_bullet_medium.gif",
-      "kind": "images",
-      "filename": "mainmenu_bullet_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
       "file": "images/mainmenu_bullet_mouseover.gif",
       "kind": "images",
       "filename": "mainmenu_bullet_mouseover.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/mainmenu_bullet_mouseover_medium.gif",
-      "kind": "images",
-      "filename": "mainmenu_bullet_mouseover_medium.gif"
     },
     {
       "content_type": "image/gif",
@@ -152,21 +122,9 @@
     },
     {
       "content_type": "image/gif",
-      "file": "images/news_bullet_medium.gif",
-      "kind": "images",
-      "filename": "news_bullet_medium.gif"
-    },
-    {
-      "content_type": "image/gif",
       "file": "images/ul_bullet.gif",
       "kind": "images",
       "filename": "ul_bullet.gif"
-    },
-    {
-      "content_type": "image/gif",
-      "file": "images/ul_bullet_medium.gif",
-      "kind": "images",
-      "filename": "ul_bullet_medium.gif"
     },
     {
       "content_type": "text/css",
